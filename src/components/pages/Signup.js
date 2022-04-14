@@ -17,26 +17,19 @@ function SignUp() {
             <input
               type="text"
               className="Username-Input"
-              placeholder="Username"
               id="userName"
               required
             />
           </div>
           <div className="form-item">
             <label className="Email-Label">Email Address: </label>
-            <input
-              type="email"
-              className="Email-Input"
-              placeholder="Email Address"
-              required
-            />
+            <input type="email" className="Email-Input" required />
           </div>
           <div className="form-item">
             <label className="password-Label">Password: </label>
             <input
               type="Password"
               className="Password-Input"
-              placeholder="Password"
               required
               id="password"
             />
@@ -46,7 +39,6 @@ function SignUp() {
             <input
               type="Password"
               className="Confirm-Password-Input"
-              placeholder="Confirm Password"
               id="confirmPassword"
               required
             />
@@ -55,11 +47,10 @@ function SignUp() {
           <div className="footer">
             <input type="submit" value="Register" className="submit-btn" />
           </div>
+          <Link to="/Login-page" className="alreadyLoginpage">
+            Already Register? Login!
+          </Link>
         </div>
-
-        <Link to="/Login-page" className="alreadyLoginPage">
-          Already Registered? login!
-        </Link>
       </form>
     </div>
   );

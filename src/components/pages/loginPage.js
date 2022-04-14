@@ -13,21 +13,11 @@ function loginPage() {
 
           <div className="form-item">
             <label className="Email-Label">Email Address: </label>
-            <input
-              type="email"
-              className="Email-Input"
-              placeholder="Email Address"
-              required
-            />
+            <input type="email" className="Email-Input" required />
           </div>
           <div className="form-item">
             <label className="password-Label">Password: </label>
-            <input
-              type="Password"
-              className="Password-Input"
-              placeholder="Password"
-              required
-            />
+            <input type="Password" className="Password-Input" required />
           </div>
 
           <div className="footer">
