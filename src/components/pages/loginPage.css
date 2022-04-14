@@ -1,5 +1,5 @@
 .body{
-    background-image: url('https://res.cloudinary.com/tamstech-computer-repair-center/image/upload/v1646312257/photo-1450101499163-c8848c66ca85_zdshtg.avif');
+    background-color:#242424;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -14,7 +14,6 @@
     margin-left: 4%;
     padding-top: 2rem;
     background-color: #fff;
-   
     
 }
 
@@ -44,8 +43,9 @@
 
 }
 .form-header{
-    color: red;
+    color: #000;
     font-size: larger;
+    
 }
 
 

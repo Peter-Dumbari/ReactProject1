@@ -1,6 +1,5 @@
 .body{
-    background-image: url('https://res.cloudinary.com/tamstech-computer-repair-center/image/upload/v1646312257/photo-1450101499163-c8848c66ca85_zdshtg.avif');
-    background-repeat: no-repeat;
+    background-color: #242424;
     background-size: cover;
     background-position: center;
     background-size: fill;
@@ -11,7 +10,7 @@
 
 }
 .Registration-form{
-    width: 100%;
+    width: 30%;
     margin-left: 30%;
     padding-bottom: 5rem;
     padding-top: 2rem;
@@ -85,28 +84,4 @@ background-color: green;}
 
 .submit-btn{
     padding: 1px;
-}
-@media only screen and (min-width: 1200px) {
-    .Registration-form{
-        width: 70%;
-    }
-
-    .form-item{
-        width: 100%;
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-.Registration-form{
-    width: 70%;
-}
-.form-item{
-    width: 100%;
-}
-}
-
-@media only screen and (max-width: 1024px) {
-.Registration-form{
-    width: 70%;
-}
 }
