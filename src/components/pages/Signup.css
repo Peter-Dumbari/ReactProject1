@@ -7,10 +7,11 @@
     display: flex;
     flex-direction: column;
   height: 90vh;
+  align-items: center;
 
 }
 .Registration-form{
-    width: 30%;
+    width: 100%;
     margin-left: 30%;
     padding-bottom: 5rem;
     padding-top: 2rem;
@@ -78,36 +79,34 @@ background-color: green;}
 
 }   
 
-@media screen and (max-width: 960px){
-    .body{
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-size: fill;
-        display: flex;
-        flex-direction: column;
-      height: 90vh;
-    
-    }
-
-    .Registration-form{
-        width: 70%;
-        margin-left: 15%;
-        padding-top: 2rem;
-        box-sizing: content-box;
-    }
-
-    
-.Password-Input, .Username-Input, .Email-Input, .Confirm-Password-Input{
-    padding: 5px;
-    border-radius: 2rem;
-}
-
 .alreadyLoginpage{
     margin-left: 30%;
 }
 
 .submit-btn{
     padding: 1px;
+}
+@media only screen and (min-width: 1200px) {
+    .Registration-form{
+        width: 70%;
+    }
+
+    .form-item{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+.Registration-form{
+    width: 70%;
+}
+.form-item{
+    width: 100%;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+.Registration-form{
+    width: 70%;
 }
 }
